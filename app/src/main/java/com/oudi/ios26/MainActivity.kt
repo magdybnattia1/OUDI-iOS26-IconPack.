@@ -51,6 +51,17 @@ class MainActivity : Activity() {
         }
         page.addView(intro)
 
+        val activate = Button(this).apply {
+            text = "تفعيل لوحة مفاتيح OUDI"
+            textSize = 15f
+            setTextColor(Color.WHITE)
+            backgroundTintList = android.content.res.ColorStateList.valueOf(Color.rgb(74, 137, 224))
+            setOnClickListener {
+                startActivity(android.content.Intent(android.provider.Settings.ACTION_INPUT_METHOD_SETTINGS))
+            }
+        }
+        page.addView(activate, LinearLayout.LayoutParams(-1, dp(52)).apply { bottomMargin = dp(20) })
+
         val count = TextView(this).apply {
             text = "ICON COLLECTION     •     24 ICONS"
             setTextColor(Color.rgb(132, 190, 231))

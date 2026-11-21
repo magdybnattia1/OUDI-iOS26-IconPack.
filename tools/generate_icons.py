@@ -3,6 +3,7 @@ from urllib.request import urlopen, Request
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 from io import BytesIO
 
+# OUDI color pass: boosted saturation/contrast, with original alpha and glass highlights retained.
 BASE = "https://raw.githubusercontent.com/SysAdminDoc/iOSIconPack/master/app/src/main/res/drawable-xxxhdpi/"
 OUT = Path("app/src/main/res/drawable-nodpi")
 OUT.mkdir(parents=True, exist_ok=True)

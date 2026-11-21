@@ -1,0 +1,3 @@
+OUDI iOS 26 Glass icon pack includes artwork sourced from SysAdminDoc/iOSIconPack:
+https://github.com/SysAdminDoc/iOSIconPack
+The upstream project describes itself as open source and includes iOS 26 Liquid Glass-inspired icon assets. Please retain this attribution when redistributing the artwork. OUDI-specific packaging and mappings are maintained separately.

@@ -131,7 +131,6 @@ class OudiKeyboardService : InputMethodService() {
         else ic.commitText("\n",1)
     }
     private fun refresh() {
-        inputView = buildKeyboard()
-        setInputView(inputView)
+        setInputView(buildKeyboard())
     }
 }
